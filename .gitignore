@@ -3,4 +3,5 @@ config.php
 failed.txt
 found.txt
 vendor
-zip
+zip/*
+!zip/.gitkeep
