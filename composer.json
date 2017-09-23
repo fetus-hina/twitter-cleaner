@@ -1,0 +1,12 @@
+{
+    "name": "fetus/clean",
+    "require": {
+        "abraham/twitteroauth": "^0.7.4"
+    },
+    "authors": [
+        {
+            "name": "AIZAWA Hina",
+            "email": "hina@bouhime.com"
+        }
+    ]
+}
