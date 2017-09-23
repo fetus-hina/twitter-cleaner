@@ -22,12 +22,16 @@ Twitter Cleaner
 2. `zip` ディレクトリの中に ZIP ファイルを置いて、展開します。   
    `zip/data/js/tweets` ディレクトリの中にツイートが書かれたファイルが生成されているはずです。
 
-3. `finder.php` を実行します。何を削除キーワードにするかはこのプログラムの中に書いてあります。   
+3. [Composerをセットアップ](https://getcomposer.org/download/)します。すでに /usr/local/bin とかに入れてあるならそれを使えばいいです。
+
+4. `./composer.phar install` とかして依存パッケージを入れます。 /usr/local/bin とかに入っているなら `composer.phar install` でいいでしょう。
+
+5. `finder.php` を実行します。何を削除キーワードにするかはこのプログラムの中に書いてあります。   
    標準出力に削除リストが出るので、 `php finder.php > found.txt` などとして `found.txt` に書き込んでください。
 
-4. `config.sample.php` を `config.php` にコピーして、さらに中に Twitter アプリの情報を書きます。
+6. `config.sample.php` を `config.php` にコピーして、さらに中に Twitter アプリの情報を書きます。
 
-5. `remover.php` を実行します。このプログラムは `found.txt` を見てそれなりに消していきます。
+7. `remover.php` を実行します。このプログラムは `found.txt` を見てそれなりに消していきます。
 
 ライセンス
 ----------
